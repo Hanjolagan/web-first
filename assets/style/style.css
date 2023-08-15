@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(
+    72.3deg,
+    rgb(29, 7, 64) 8.5%,
+    rgb(253, 105, 139) 92.2%
+  );
+}
+
+.navbar a {
+  padding: 15px 70px;
+  width: 106px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile h2 {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.profile h6 {
+  color: white;
+  transform: translateY(-5px);
+  font-style: italic;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.profileImage {
+  width: 200px;
+}
+
+.biodata {
+  background-color: white;
+  padding-bottom: 195px;
+  padding-top: 95px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row {
+  padding: 0px 50px;
+}
+
+.socialmedia h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+}
+
+.contact a {
+  color: deepskyblue;
+  font-size: 45px;
+}
+
+.footer p {
+  color: white;
+}
